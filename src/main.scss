@@ -2,10 +2,6 @@
 @use 'config/variaveis.scss';
 @use 'sass:math';
 
-@function larguraGrid($numColunas, $larguraPercent: 100%) {
-    @return math.div($larguraPercent, $numColunas);
-}
-
 body {
     background-color: variaveis.$corDeFundo;
 
